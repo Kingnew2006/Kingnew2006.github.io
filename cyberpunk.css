@@ -25,11 +25,17 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body , html {
-    display: flex;
+    height: 100%;
     width: 100%;
-    align-items: center;
+     margin: 0 ;
+     
 	line-height: 1;
-    flex-direction: column;
+    
+    
+}
+ 
+.page_1 {
+    width: 1920PX;
 }
 ol, ul {
 	list-style: none;
@@ -534,6 +540,9 @@ button:hover {
         width: 1024px;
         
     }
+    .cyberpunk_header{
+        width: 1024PX;
+    }
     .cyberlogo_logos {
          width: 952px;
          gap: 277px;
@@ -543,6 +552,7 @@ button:hover {
     .page_one {
         background-image: url(./img/11\ \(1\).jpg);
         background-repeat: no-repeat;
+        width: 1024px;
     }
     .all_platforms {
         margin-left: 364px;
